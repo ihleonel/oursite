@@ -182,7 +182,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2023 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Oursite.com</a>
+      <a class="text-reset fw-bold" href="https://ihleonel.github.io/oursite/">Oursite.com</a>
     </div>
     <!-- Copyright -->
   </footer>
