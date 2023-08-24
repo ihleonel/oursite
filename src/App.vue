@@ -1,8 +1,60 @@
 <script setup>
-import Main from './components/Main.vue';
 </script>
 <template>
-  <Main></Main>
+  <main class="container">
+    <h1 class="text-center mt-5">
+      Soluciones a medida que se adaptan a la perfección a la visión y los objetivos de tu negocio.
+    </h1>
+    <p>Transformando Visiones en Soluciones Digitales</p>
+    <p class="mt-5">Somos un equipo experto en el desarrollo de sistemas
+      web personalizados que potencian el crecimiento y la eficiencia de tu empresa.
+      Nuestro enfoque se basa en la innovación, la calidad y la colaboración.
+    </p>
+
+    <h2>Acerca de nosotros</h2>
+    <p>
+      Historia de la Empresa: "Con una sólida trayectoria en el mundo del desarrollo web,
+      hemos ayudado a empresas de diversos sectores a alcanzar sus objetivos digitales. Nuestra
+      pasión por la tecnología y el compromiso con la excelencia nos impulsan a ofrecer soluciones
+      sobresalientes."
+    </p>
+    <p>
+      Equipo: "Nuestro equipo está compuesto por ingenieros y diseñadores altamente capacitados,
+      dedicados a crear sistemas web que superen las expectativas. Trabajamos en estrecha colaboración
+      contigo para entender tus necesidades y convertirlas en realidades digitales.
+    </p>
+
+    <h2>Servicios</h2>
+    <p>
+      Desarrollo de Aplicaciones Web: "Creamos aplicaciones web a medida que se adaptan perfectamente a
+      tus procesos empresariales. Desde la planificación hasta la implementación, nos enfocamos en la
+      usabilidad y el rendimiento."
+    </p>
+    <p>
+      Diseño de Interfaz de Usuario (UI) y Experiencia de Usuario (UX): "Nuestros diseñadores transforman ideas
+      en interfaces atractivas y funcionales. Priorizamos la experiencia del usuario para asegurar que cada
+      interacción sea intuitiva y gratificante."
+    </p>
+    <p>
+      Optimización y Mantenimiento: "No nos detenemos después del lanzamiento. Mantenemos tus sistemas web
+      actualizados, seguros y en pleno rendimiento. Realizamos optimizaciones constantes para
+      garantizar un funcionamiento sin problemas."
+    </p>
+
+    <h2>Procesos de trabajo</h2>
+    <p>
+      Consulta y Planificación: "Comenzamos por comprender tus metas y desafíos. Luego, creamos un plan detallado que guiará todo el proceso de desarrollo."
+    </p>
+    <p>
+      Diseño y Desarrollo: "Nuestro equipo diseña prototipos y desarrolla iterativamente tu sistema web, asegurando que cada funcionalidad esté alineada con tus objetivos."
+    </p>
+    <p>
+      Pruebas y Optimización: "Realizamos pruebas exhaustivas para garantizar que tu sistema funcione de manera óptima en diversos escenarios. Realizamos ajustes y optimizaciones según sea necesario."
+    </p>
+    <p>
+      Implementación y Soporte: "Una vez que todo esté listo, implementamos el sistema en tu entorno. Además, brindamos soporte continuo para resolver cualquier problema y asegurarnos de que estés satisfecho."
+    </p>
+  </main>
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
@@ -103,13 +155,13 @@ import Main from './components/Main.vue';
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-home me-3"></i> Salta, Gral Rauch 1786, ARG</p>
             <p>
               <i class="fas fa-envelope me-3"></i>
-              info@example.com
+              ibarra.h.leonel@gmail.com
             </p>
-            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-phone me-3"></i> + 54 9387 4149 442</p>
+            <p><i class="fas fa-user me-3"></i> Ibarra Hector Leonel</p>
           </div>
           <!-- Grid column -->
         </div>
@@ -120,8 +172,8 @@ import Main from './components/Main.vue';
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Oursite.com</a>
     </div>
     <!-- Copyright -->
   </footer>
