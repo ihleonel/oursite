@@ -2,16 +2,25 @@
 </script>
 <template>
   <main class="container">
-    <h1 class="text-center mt-5">
-      Soluciones a medida que se adaptan a la perfección a la visión y los objetivos de tu negocio.
-    </h1>
-    <p>Transformando Visiones en Soluciones Digitales</p>
+    <div class="row">
+      <div class="col-6 d-flex align-items-center">
+        <div>
+          <h1>
+            Soluciones a medida que se adaptan a la perfección a la visión y los objetivos de tu negocio.
+          </h1>
+          <p >Transformando Visiones en Soluciones Digitales.</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="../public/flat design 1.png" alt="Imagen de representacion" height="600">
+      </div>
+    </div>
     <p class="mt-5">Somos un equipo experto en el desarrollo de sistemas
       web personalizados que potencian el crecimiento y la eficiencia de tu empresa.
       Nuestro enfoque se basa en la innovación, la calidad y la colaboración.
     </p>
 
-    <h2>Acerca de nosotros</h2>
+    <h3 class="mt-5">Acerca de nosotros</h3>
     <p>
       Historia de la Empresa: "Con una sólida trayectoria en el mundo del desarrollo web,
       hemos ayudado a empresas de diversos sectores a alcanzar sus objetivos digitales. Nuestra
@@ -24,7 +33,7 @@
       contigo para entender tus necesidades y convertirlas en realidades digitales.
     </p>
 
-    <h2>Servicios</h2>
+    <h3 class="mt-5">Servicios</h3>
     <p>
       Desarrollo de Aplicaciones Web: "Creamos aplicaciones web a medida que se adaptan perfectamente a
       tus procesos empresariales. Desde la planificación hasta la implementación, nos enfocamos en la
@@ -41,7 +50,7 @@
       garantizar un funcionamiento sin problemas."
     </p>
 
-    <h2>Procesos de trabajo</h2>
+    <h3 class="mt-5">Procesos de trabajo</h3>
     <p>
       Consulta y Planificación: "Comenzamos por comprender tus metas y desafíos. Luego, creamos un plan detallado que guiará todo el proceso de desarrollo."
     </p>
@@ -56,7 +65,7 @@
     </p>
   </main>
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted">
+  <footer class="text-center text-lg-start bg-light text-muted mt-5">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
