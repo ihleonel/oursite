@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="col-6">
-        <img src="../public/flat design 1.png" alt="Imagen de representacion" height="600">
+        <img src="" alt="Imagen de representacion" height="600">
       </div>
     </div>
     <p class="mt-5">Somos un equipo experto en el desarrollo de sistemas
