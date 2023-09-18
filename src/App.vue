@@ -2,6 +2,20 @@
 </script>
 <template>
   <main class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <img class="bi me-2" width="40" height="40" role="icon" src="/oursite-logo.png" type="image/png" />
+        <span class="fs-4">Oursite</span>
+      </a>
+
+      <ul class="nav">
+        <li><a href="#" class="nav-link active link-secondary" aria-current="page">Inicio</a></li>
+        <li><a href="#" class="nav-link link-secondary">Acerca de nosotros</a></li>
+        <li><a href="#" class="nav-link link-secondary">Servicios</a></li>
+        <li><a href="#" class="nav-link link-secondary">Procesos de trabajo</a></li>
+        <li><a href="#" class="nav-link link-secondary">Contacto</a></li>
+      </ul>
+    </header>
     <div class="row">
       <div class="col-6 d-flex align-items-center">
         <div>
@@ -12,7 +26,7 @@
         </div>
       </div>
       <div class="col-6">
-        <img src="" alt="Imagen de representacion" height="600">
+        <img src="/flat-design-1.png" alt="Imagen de representacion" height="600">
       </div>
     </div>
     <p class="mt-5">Somos un equipo experto en el desarrollo de sistemas
@@ -70,7 +84,7 @@
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
-        <span>Conectate con nosotros o visitas nustras redes sociales:</span>
+        <span>Conectate con nosotros o visita nustras redes sociales:</span>
       </div>
       <!-- Left -->
 
