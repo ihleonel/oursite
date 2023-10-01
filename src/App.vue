@@ -9,11 +9,11 @@
       </a>
 
       <ul class="nav">
-        <li><a href="#" class="nav-link active link-secondary" aria-current="page">Inicio</a></li>
-        <li><a href="#" class="nav-link link-secondary">Acerca de nosotros</a></li>
-        <li><a href="#" class="nav-link link-secondary">Servicios</a></li>
-        <li><a href="#" class="nav-link link-secondary">Procesos de trabajo</a></li>
-        <li><a href="#" class="nav-link link-secondary">Contacto</a></li>
+        <li><a href="/" class="nav-link active link-secondary" aria-current="page">Inicio</a></li>
+        <li><a href="#acerca" class="nav-link link-secondary">Acerca de nosotros</a></li>
+        <li><a href="#servicios" class="nav-link link-secondary">Servicios</a></li>
+        <li><a href="#procesos" class="nav-link link-secondary">Procesos de trabajo</a></li>
+        <li><a href="#contacto" class="nav-link link-secondary">Contacto</a></li>
       </ul>
     </header>
     <div class="row">
@@ -34,7 +34,7 @@
       Nuestro enfoque se basa en la innovación, la calidad y la colaboración.
     </p>
 
-    <h3 class="mt-5">Acerca de nosotros</h3>
+    <h3 class="mt-5" id="acerca">Acerca de nosotros</h3>
     <p>
       Historia de la Empresa: "Con una sólida trayectoria en el mundo del desarrollo web,
       hemos ayudado a empresas de diversos sectores a alcanzar sus objetivos digitales. Nuestra
@@ -47,7 +47,7 @@
       contigo para entender tus necesidades y convertirlas en realidades digitales.
     </p>
 
-    <h3 class="mt-5">Servicios</h3>
+    <h3 class="mt-5" id="servicios">Servicios</h3>
     <p>
       Desarrollo de Aplicaciones Web: "Creamos aplicaciones web a medida que se adaptan perfectamente a
       tus procesos empresariales. Desde la planificación hasta la implementación, nos enfocamos en la
@@ -64,7 +64,7 @@
       garantizar un funcionamiento sin problemas."
     </p>
 
-    <h3 class="mt-5">Procesos de trabajo</h3>
+    <h3 class="mt-5" id="procesos">Procesos de trabajo</h3>
     <p>
       Consulta y Planificación: "Comenzamos por comprender tus metas y desafíos. Luego, creamos un plan detallado que guiará todo el proceso de desarrollo."
     </p>
@@ -79,7 +79,7 @@
     </p>
   </main>
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted mt-5">
+  <footer class="text-center text-lg-start bg-light text-muted mt-5" id="contacto">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
@@ -160,16 +160,16 @@
               Useful links
             </h6>
             <p>
-              <a href="#!" class="text-reset">Pricing</a>
+              <a href="/" class="text-reset">Inicio</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Settings</a>
+              <a href="#acerca" class="text-reset">Acerca de nosotros</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Orders</a>
+              <a href="#servicios" class="text-reset">Servicios</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Help</a>
+              <a href="#procesos" class="text-reset">Procesos de trabajo</a>
             </p>
           </div>
           <!-- Grid column -->
