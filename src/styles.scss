@@ -1,2 +1,17 @@
+.nav-link {
+  color: white;
+}
 @import 'bootstrap/scss/bootstrap';
 @import '@fortawesome/fontawesome-free/scss/fontawesome';
+
+body {
+  background:
+  linear-gradient(rgb(15, 0, 130), transparent),
+  linear-gradient(to top left, rgb(133, 0, 127), transparent),
+  linear-gradient(to top right, rgb(0, 116, 98), transparent);
+  background-blend-mode: screen;
+
+  color: white;
+}
+
+

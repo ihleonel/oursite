@@ -5,15 +5,15 @@
     <header class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img class="bi me-2" width="40" height="40" role="icon" src="/oursite-logo.png" type="image/png" />
-        <span class="fs-4">Oursite</span>
+        <span class="fs-4 text-white">Oursite</span>
       </a>
 
       <ul class="nav">
-        <li><a href="/" class="nav-link active link-secondary" aria-current="page">Inicio</a></li>
-        <li><a href="#acerca" class="nav-link link-secondary">Acerca de nosotros</a></li>
-        <li><a href="#servicios" class="nav-link link-secondary">Servicios</a></li>
-        <li><a href="#procesos" class="nav-link link-secondary">Procesos de trabajo</a></li>
-        <li><a href="#contacto" class="nav-link link-secondary">Contacto</a></li>
+        <li><a href="/" class="nav-link link-light" aria-current="page">Inicio</a></li>
+        <li><a href="#acerca" class="nav-link link-light">Acerca de nosotros</a></li>
+        <li><a href="#servicios" class="nav-link link-light">Servicios</a></li>
+        <li><a href="#procesos" class="nav-link link-light">Procesos de trabajo</a></li>
+        <li><a href="#contacto" class="nav-link link-light">Contacto</a></li>
       </ul>
     </header>
     <div class="row">
