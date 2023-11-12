@@ -2,84 +2,106 @@
 </script>
 <template>
   <main class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img class="bi me-2" width="40" height="40" role="icon" src="/oursite-logo.png" type="image/png" />
-        <span class="fs-4 text-white">Oursite</span>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand fs-4" href="/">
+        <img src="/oursite-logo.png" width="40" height="40" role="icon" alt="logo">
+        Oursite
       </a>
 
-      <ul class="nav">
-        <li><a href="/" class="nav-link link-light" aria-current="page">Inicio</a></li>
-        <li><a href="#acerca" class="nav-link link-light">Acerca de nosotros</a></li>
-        <li><a href="#servicios" class="nav-link link-light">Servicios</a></li>
-        <li><a href="#procesos" class="nav-link link-light">Procesos de trabajo</a></li>
-        <li><a href="#contacto" class="nav-link link-light">Contacto</a></li>
-      </ul>
-    </header>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navoursite"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        id="navoursite"
+        class="collapse navbar-collapse"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="/" class="nav-link link-light">Inicio</a></li>
+          <li class="nav-item"><a href="#acerca" class="nav-link link-light">Acerca de nosotros</a></li>
+          <li class="nav-item"><a href="#servicios" class="nav-link link-light">Servicios</a></li>
+          <li class="nav-item"><a href="#procesos" class="nav-link link-light">Procesos de trabajo</a></li>
+          <li class="nav-item"><a href="#contacto" class="nav-link link-light">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="row">
-      <div class="col-6 d-flex align-items-center">
+
+      <div class="col-sm-12 col-md-6 d-flex align-items-center">
         <div>
           <h1>
-            Soluciones a medida que se adaptan a la perfección a la visión y los objetivos de tu negocio.
+            Soluciones a medida, que se adaptan a la visión y los objetivos de tu negocio.
           </h1>
-          <p >Transformando Visiones en Soluciones Digitales.</p>
+          <p >Transformando visiones en soluciones digitales.</p>
         </div>
       </div>
-      <div class="col-6">
-        <img src="/flat-design-1.png" alt="Imagen de representacion" height="600">
+      <div class="col-sm-12 col-md-6">
+        <img class="img-fluid" src="/flat-design-1.png" alt="Imagen de representacion" height="600">
       </div>
     </div>
-    <p class="mt-5">Somos un equipo experto en el desarrollo de sistemas
-      web personalizados que potencian el crecimiento y la eficiencia de tu empresa.
-      Nuestro enfoque se basa en la innovación, la calidad y la colaboración.
-    </p>
 
-    <h3 class="mt-5" id="acerca">Acerca de nosotros</h3>
-    <p>
-      Historia de la Empresa: "Con una sólida trayectoria en el mundo del desarrollo web,
-      hemos ayudado a empresas de diversos sectores a alcanzar sus objetivos digitales. Nuestra
-      pasión por la tecnología y el compromiso con la excelencia nos impulsan a ofrecer soluciones
-      sobresalientes."
-    </p>
-    <p>
-      Equipo: "Nuestro equipo está compuesto por ingenieros y diseñadores altamente capacitados,
-      dedicados a crear sistemas web que superen las expectativas. Trabajamos en estrecha colaboración
-      contigo para entender tus necesidades y convertirlas en realidades digitales.
-    </p>
+    <div class="fs-5">
 
-    <h3 class="mt-5" id="servicios">Servicios</h3>
-    <p>
-      Desarrollo de Aplicaciones Web: "Creamos aplicaciones web a medida que se adaptan perfectamente a
-      tus procesos empresariales. Desde la planificación hasta la implementación, nos enfocamos en la
-      usabilidad y el rendimiento."
-    </p>
-    <p>
-      Diseño de Interfaz de Usuario (UI) y Experiencia de Usuario (UX): "Nuestros diseñadores transforman ideas
-      en interfaces atractivas y funcionales. Priorizamos la experiencia del usuario para asegurar que cada
-      interacción sea intuitiva y gratificante."
-    </p>
-    <p>
-      Optimización y Mantenimiento: "No nos detenemos después del lanzamiento. Mantenemos tus sistemas web
-      actualizados, seguros y en pleno rendimiento. Realizamos optimizaciones constantes para
-      garantizar un funcionamiento sin problemas."
-    </p>
+      <p class="mt-5">Somos un equipo experto en el desarrollo de sistemas
+        web personalizados que potencian el crecimiento y la eficiencia de tu empresa.
+        Nuestro enfoque se basa en la innovación, la calidad y la colaboración.
+      </p>
 
-    <h3 class="mt-5" id="procesos">Procesos de trabajo</h3>
-    <p>
-      Consulta y Planificación: "Comenzamos por comprender tus metas y desafíos. Luego, creamos un plan detallado que guiará todo el proceso de desarrollo."
-    </p>
-    <p>
-      Diseño y Desarrollo: "Nuestro equipo diseña prototipos y desarrolla iterativamente tu sistema web, asegurando que cada funcionalidad esté alineada con tus objetivos."
-    </p>
-    <p>
-      Pruebas y Optimización: "Realizamos pruebas exhaustivas para garantizar que tu sistema funcione de manera óptima en diversos escenarios. Realizamos ajustes y optimizaciones según sea necesario."
-    </p>
-    <p>
-      Implementación y Soporte: "Una vez que todo esté listo, implementamos el sistema en tu entorno. Además, brindamos soporte continuo para resolver cualquier problema y asegurarnos de que estés satisfecho."
-    </p>
+      <h3 class="mt-5" id="acerca">Acerca de nosotros</h3>
+      <p>
+        Historia de la Empresa: "Con una sólida trayectoria en el mundo del desarrollo web,
+        hemos ayudado a empresas de diversos sectores a alcanzar sus objetivos digitales. Nuestra
+        pasión por la tecnología y el compromiso con la excelencia nos impulsan a ofrecer soluciones
+        sobresalientes."
+      </p>
+      <p>
+        Equipo: "Nuestro equipo está compuesto por ingenieros y diseñadores altamente capacitados,
+        dedicados a crear sistemas web que superen las expectativas. Trabajamos en estrecha colaboración
+        contigo para entender tus necesidades y convertirlas en realidades digitales.
+      </p>
+
+      <h3 class="mt-5" id="servicios">Servicios</h3>
+      <p>
+        Desarrollo de Aplicaciones Web: "Creamos aplicaciones web a medida que se adaptan perfectamente a
+        tus procesos empresariales. Desde la planificación hasta la implementación, nos enfocamos en la
+        usabilidad y el rendimiento."
+      </p>
+      <p>
+        Diseño de Interfaz de Usuario (UI) y Experiencia de Usuario (UX): "Nuestros diseñadores transforman ideas
+        en interfaces atractivas y funcionales. Priorizamos la experiencia del usuario para asegurar que cada
+        interacción sea intuitiva y gratificante."
+      </p>
+      <p>
+        Optimización y Mantenimiento: "No nos detenemos después del lanzamiento. Mantenemos tus sistemas web
+        actualizados, seguros y en pleno rendimiento. Realizamos optimizaciones constantes para
+        garantizar un funcionamiento sin problemas."
+      </p>
+
+      <h3 class="mt-5" id="procesos">Procesos de trabajo</h3>
+      <p>
+        Consulta y Planificación: "Comenzamos por comprender tus metas y desafíos. Luego, creamos un plan detallado que guiará todo el proceso de desarrollo."
+      </p>
+      <p>
+        Diseño y Desarrollo: "Nuestro equipo diseña prototipos y desarrolla iterativamente tu sistema web, asegurando que cada funcionalidad esté alineada con tus objetivos."
+      </p>
+      <p>
+        Pruebas y Optimización: "Realizamos pruebas exhaustivas para garantizar que tu sistema funcione de manera óptima en diversos escenarios. Realizamos ajustes y optimizaciones según sea necesario."
+      </p>
+      <p>
+        Implementación y Soporte: "Una vez que todo esté listo, implementamos el sistema en tu entorno. Además, brindamos soporte continuo para resolver cualquier problema y asegurarnos de que estés satisfecho."
+      </p>
+    </div>
+
   </main>
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted mt-5" id="contacto">
+  <footer class="text-center text-lg-start bg-dark text-white mt-5" id="contacto">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
