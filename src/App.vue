@@ -1,14 +1,10 @@
 <script setup>
+import LinkedinIcon from './Components/Icons/LinkedinIcon.vue'
 </script>
 <template>
   <main class="container">
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand fs-4" href="/">
-        <img src="/oursite-logo.png" width="40" height="40" role="icon" alt="logo">
-        Oursite
-      </a>
-
       <button
         class="navbar-toggler"
         type="button"
@@ -24,28 +20,35 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item"><a href="/" class="nav-link link-light">Inicio</a></li>
-          <li class="nav-item"><a href="#acerca" class="nav-link link-light">Acerca de nosotros</a></li>
-          <li class="nav-item"><a href="#servicios" class="nav-link link-light">Servicios</a></li>
-          <li class="nav-item"><a href="#procesos" class="nav-link link-light">Procesos de trabajo</a></li>
+          <li class="nav-item"><a href="#acerca" class="nav-link link-light">Acerca de mí</a></li>
+          <li class="nav-item"><a href="#proyectos" class="nav-link link-light">proyectos</a></li>
           <li class="nav-item"><a href="#contacto" class="nav-link link-light">Contacto</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="row">
-
-      <div class="col-sm-12 col-md-6 d-flex align-items-center">
-        <div>
-          <h1>
-            Soluciones a medida, que se adaptan a la visión y los objetivos de tu negocio.
-          </h1>
-          <p >Transformando visiones en soluciones digitales.</p>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <img class="img-fluid" src="/flat-design-1.png" alt="Imagen de representacion" height="600">
+    <div class="row mb-3">
+      <div class="col text-center">
+        <img src="https://picsum.photos/200" class="rounded-circle" alt="Imagen Leonel">
       </div>
     </div>
+    <div class="row">
+      <div class="col text-center">
+        <h1 class="fw-bold">Leonel Ibarra</h1>
+      </div>
+    </div>
+
+    <p class="fs-5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus,
+      vero harum voluptatum suscipit saepe aliquam impedit nihil vel perspiciatis
+      optio eos iste eligendi! Molestiae vero iusto et praesentium amet.
+    </p>
+    <a
+      class="link-secondary"
+      href="https://www.linkedin.com/in/leonel-ibarra-91967723a/"
+    >
+      <LinkedinIcon /> LinkedIn
+    </a>
 
     <div class="fs-5">
 

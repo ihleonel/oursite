@@ -3,12 +3,17 @@
 
 body {
   background:
-  linear-gradient(rgb(15, 0, 130), transparent),
-  linear-gradient(to top left, rgb(133, 0, 127), transparent),
-  linear-gradient(to top right, rgb(0, 116, 98), transparent);
+  linear-gradient(rgb(12, 0, 103), transparent),
+  linear-gradient(to top left, rgb(64, 0, 61), transparent),
+  linear-gradient(to top right, rgb(0, 124, 103), transparent);
   background-blend-mode: screen;
 
   color: white;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Montserrat Variable', Times, serif;
 }
 
 
