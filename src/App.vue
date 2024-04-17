@@ -1,9 +1,9 @@
 <script setup>
 import LinkedinIcon from './Components/Icons/LinkedinIcon.vue'
+import GithubIcon from './Components/Icons/GithubIcon.vue'
 </script>
 <template>
   <main class="container">
-
     <nav class="navbar navbar-expand-lg navbar-dark">
       <button
         class="navbar-toggler"
@@ -29,7 +29,11 @@ import LinkedinIcon from './Components/Icons/LinkedinIcon.vue'
 
     <div class="row mb-3">
       <div class="col text-center">
-        <img src="https://picsum.photos/200" class="rounded-circle" alt="Imagen Leonel">
+        <img
+          src="https://picsum.photos/200"
+          class="rounded-circle"
+          alt="Imagen Leonel"
+        >
       </div>
     </div>
     <div class="row">
@@ -44,10 +48,16 @@ import LinkedinIcon from './Components/Icons/LinkedinIcon.vue'
       optio eos iste eligendi! Molestiae vero iusto et praesentium amet.
     </p>
     <a
-      class="link-secondary"
       href="https://www.linkedin.com/in/leonel-ibarra-91967723a/"
+      target="_blank"
     >
-      <LinkedinIcon /> LinkedIn
+      <LinkedinIcon />
+    </a>
+    <a
+      href="https://github.com/ihleonel"
+      target="_blank"
+     >
+      <GithubIcon />
     </a>
 
     <div class="fs-5">
