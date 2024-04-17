@@ -38,27 +38,30 @@ import GithubIcon from './Components/Icons/GithubIcon.vue'
     </div>
     <div class="row">
       <div class="col text-center">
-        <h1 class="fw-bold">Leonel Ibarra</h1>
+        <h1 class="fw-bold display-4">Leonel Ibarra</h1>
       </div>
     </div>
-
-    <p class="fs-5">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus,
-      vero harum voluptatum suscipit saepe aliquam impedit nihil vel perspiciatis
-      optio eos iste eligendi! Molestiae vero iusto et praesentium amet.
-    </p>
-    <a
-      href="https://www.linkedin.com/in/leonel-ibarra-91967723a/"
-      target="_blank"
-    >
-      <LinkedinIcon />
-    </a>
-    <a
-      href="https://github.com/ihleonel"
-      target="_blank"
-     >
-      <GithubIcon />
-    </a>
+    <div class="row">
+      <div class="col text-center">
+        <h4>Fullstack Developer</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <a
+          href="https://www.linkedin.com/in/leonel-ibarra-91967723a/"
+          target="_blank"
+        >
+          <LinkedinIcon />
+        </a>
+        <a
+          href="https://github.com/ihleonel"
+          target="_blank"
+         >
+          <GithubIcon />
+        </a>
+      </div>
+    </div>
 
     <div class="fs-5">
 
