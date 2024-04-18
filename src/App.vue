@@ -7,16 +7,19 @@ import GithubIcon from './Components/Icons/GithubIcon.vue'
     <section class="presentation">
       <div class="presentation-left">
         <h1 class="fw-bold display-4">Leonel Ibarra</h1>
-        <h3 class="fw-bold">Fullstack Developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Officiis vel placeat quam, nemo explicabo odit eius.</p>
+        <h3 class="fw-bold highlight">Fullstack Developer</h3>
+        <p>
+          Inicié mi carrera profesional como desarrollador hace más de
+          6 años. Participé en multiples proyectos del sector público
+          y privado, colaborando con dististos equipos y profesionales.
+        </p>
         <LinkedinIcon class="me-3"/>
         <GithubIcon />
       </div>
       <div>
         <img
           src="https://picsum.photos/200"
-          class="rounded-circle"
+          class="rounded-circle image"
           alt="Imagen Leonel"
         >
       </div>
