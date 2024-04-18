@@ -10,18 +10,8 @@ import GithubIcon from './Components/Icons/GithubIcon.vue'
         <h3 class="fw-bold">Fullstack Developer</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Officiis vel placeat quam, nemo explicabo odit eius.</p>
-        <a
-          href="https://www.linkedin.com/in/leonel-ibarra-91967723a/"
-          target="_blank"
-        >
-          <LinkedinIcon />
-        </a>
-        <a
-          href="https://github.com/ihleonel"
-          target="_blank"
-          >
-          <GithubIcon />
-        </a>
+        <LinkedinIcon class="me-3"/>
+        <GithubIcon />
       </div>
       <div>
         <img
