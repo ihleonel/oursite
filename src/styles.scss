@@ -2,18 +2,25 @@
 @import '@fortawesome/fontawesome-free/scss/fontawesome';
 
 body {
-  background:
-  linear-gradient(rgb(0, 124, 103), transparent),
-  linear-gradient(to top left, rgb(64, 0, 61), transparent),
-  linear-gradient(to top right, rgb(12, 0, 103), transparent);
-  background-blend-mode: screen;
+  background: #2d2d2d;
 
   color: white;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
   font-family: 'Montserrat Variable', Times, serif;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+
+  .presentation-left {
+    width: 500px;
+  }
 }
 
 .icon {
