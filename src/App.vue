@@ -1,6 +1,7 @@
 <script setup>
 import LinkedinIcon from './Components/Icons/LinkedinIcon.vue'
 import GithubIcon from './Components/Icons/GithubIcon.vue'
+import TwitterIcon from './Components/Icons/TwitterIcon.vue';
 </script>
 <template>
   <main>
@@ -13,8 +14,11 @@ import GithubIcon from './Components/Icons/GithubIcon.vue'
           6 años. Participé en multiples proyectos del sector público
           y privado, colaborando con dististos equipos y profesionales.
         </p>
-        <LinkedinIcon class="me-3"/>
-        <GithubIcon />
+        <div class="social-media">
+          <LinkedinIcon />
+          <GithubIcon />
+          <TwitterIcon />
+        </div>
       </div>
       <div>
         <img
@@ -23,6 +27,9 @@ import GithubIcon from './Components/Icons/GithubIcon.vue'
           alt="Imagen Leonel"
         >
       </div>
+    </section>
+    <section class="experiencia">
+      <h3 class="fw-bold">Experiencia</h3>
     </section>
   </main>
 </template>
