@@ -31,6 +31,9 @@ import TwitterIcon from './Components/Icons/TwitterIcon.vue';
     <section class="experiencia">
       <h3 class="fw-bold">Experiencia</h3>
     </section>
+    <section class="habilidades">
+      <h3 class="fw-bold">Habilidades</h3>
+    </section>
   </main>
 </template>
 
