@@ -9,7 +9,7 @@ import TwitterIcon from './Components/Icons/TwitterIcon.vue';
       <div class="presentation-left">
         <h1 class="fw-bold display-4">Leonel Ibarra</h1>
         <h3 class="fw-bold highlight">Fullstack Developer</h3>
-        <p>
+        <p class="description">
           Inicié mi carrera profesional como desarrollador hace más de
           6 años. Participé en multiples proyectos del sector público
           y privado, colaborando con dististos equipos y profesionales.
@@ -20,7 +20,7 @@ import TwitterIcon from './Components/Icons/TwitterIcon.vue';
           <TwitterIcon />
         </div>
       </div>
-      <div>
+      <div class="presentation-right">
         <img
           src="https://picsum.photos/200"
           class="rounded-circle image"
