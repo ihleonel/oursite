@@ -93,8 +93,9 @@ body {
   color: var(--main-color);
 }
 
-.experiencia, .habilidades {
+.experiencia, .habilidades, .contacto {
   display: flex;
+  width: 700px;
   flex-direction: column;
   align-items: center;
   margin-top: 5em;
