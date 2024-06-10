@@ -9,7 +9,7 @@ import Timeline from './Components/Timeline.vue';
     <section class="presentation">
       <div class="presentation-left">
         <h1 class="fw-bold display-4">Leonel Ibarra</h1>
-        <h3 class="fw-bold highlight">Fullstack Developer</h3>
+        <h3 class="fw-bold highlight">Full Stack Developer</h3>
         <p class="description">
           Inicié mi carrera profesional como desarrollador hace más de
           6 años. Participé en multiples proyectos del sector público
