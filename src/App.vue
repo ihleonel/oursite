@@ -3,6 +3,7 @@ import LinkedinIcon from './Components/Icons/LinkedinIcon.vue'
 import GithubIcon from './Components/Icons/GithubIcon.vue'
 import TwitterIcon from './Components/Icons/TwitterIcon.vue';
 import Timeline from './Components/Timeline.vue';
+import Skills from './Components/Skills.vue';
 </script>
 <template>
   <main>
@@ -35,6 +36,7 @@ import Timeline from './Components/Timeline.vue';
     </section>
     <section class="habilidades">
       <h3 class="fw-bold">Habilidades</h3>
+      <Skills />
     </section>
     <section class="contacto">
       <h3 class="fw-bold">Contacto</h3>
