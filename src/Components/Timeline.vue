@@ -66,9 +66,6 @@
   content: "";
 }
 
-/* .title {
-  color: var(--secondary-color);
-} */
 .dates {
   color: var(--secondary-color);
 }

@@ -35,7 +35,11 @@ import Skills from './Components/Skills.vue';
       <Timeline />
     </section>
     <section class="habilidades">
-      <h3 class="fw-bold">Habilidades</h3>
+      <h3 class="fw-bold">Tecnologías</h3>
+      <p>
+        A continuación listo algunas de las tecnologías con las que trabajé
+        en estos años como desarrollador y con las que me siento cómodo y seguro de mis conocimientos.
+      </p>
       <Skills />
     </section>
     <section class="contacto">
