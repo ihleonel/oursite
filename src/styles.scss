@@ -1,14 +1,101 @@
 @import 'bootstrap/scss/bootstrap';
 @import '@fortawesome/fontawesome-free/scss/fontawesome';
 
-body {
-  background:
-  linear-gradient(rgb(15, 0, 130), transparent),
-  linear-gradient(to top left, rgb(133, 0, 127), transparent),
-  linear-gradient(to top right, rgb(0, 116, 98), transparent);
-  background-blend-mode: screen;
-
-  color: white;
+:root {
+  --main-color: #00ff44;
+  --secondary-color: #cc89ff;
 }
 
+body {
+  height: 100vh;
+  background: #080808;
 
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Montserrat Variable', Times, serif;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  margin-top: 8em;
+
+  .presentation-left {
+    max-width: 500px;
+    margin-right: 2em;
+
+    .description {
+      text-align: left;
+    }
+  }
+
+  .presentation-right {
+    width: 200px;
+
+    .image {
+      box-shadow: 0 0 30px 10px var(--main-color);
+    }
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .presentation {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .presentation-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+
+      .description {
+        text-align: center;
+        padding: 1em;
+      }
+    }
+
+    .presentation-right {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.social-media {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    color: var(--secondary-color);
+    text-decoration: none;
+
+    &:hover {
+      box-shadow: 0 0 20px 2px var(--secondary-color);
+    }
+  }
+}
+
+.highlight {
+  color: var(--main-color);
+}
+
+.experiencia, .habilidades, .contacto {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  margin-top: 4em;
+}

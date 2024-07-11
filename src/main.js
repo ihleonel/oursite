@@ -1,5 +1,6 @@
 import 'bootstrap'
-import '@fortawesome/fontawesome-free/js/all.js';
+import '@fortawesome/fontawesome-free/js/all.js'
+import '@fontsource-variable/montserrat'
 
 import { createApp } from 'vue'
 import App from './App.vue'
